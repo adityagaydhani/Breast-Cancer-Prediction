@@ -1,0 +1,53 @@
+# Decision Tree (CART)
+Best: 0.944724 using {'class_weight': 'balanced', 'criterion': 'entropy', 'max_features': None, 'splitter': 'best'}
+Test accuracy score = 0.947368
+             precision    recall  f1-score   support
+
+          0       0.95      0.97      0.96       107
+          1       0.95      0.91      0.93        64
+
+avg / total       0.95      0.95      0.95       171
+
+[[104   3]
+ [  6  58]]
+
+
+
+# SVM
+Best: 0.972362 using {'C': 0.9, 'kernel': 'rbf'}
+Test accuracy score = 0.970760
+             precision    recall  f1-score   support
+
+          0       0.96      0.99      0.98       107
+          1       0.98      0.94      0.96        64
+
+avg / total       0.97      0.97      0.97       171
+
+[[106   1]
+ [  4  60]]
+
+# NB
+Test accuracy score = 0.941520
+             precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95       107
+          1       0.95      0.89      0.92        64
+
+avg / total       0.94      0.94      0.94       171
+
+[[104   3]
+ [  7  57]]
+
+
+# KNN
+Best: 0.967337 using {'algorithm': 'auto', 'n_neighbors': 10, 'p': 2, 'weights': 'distance'}
+Test accuracy score = 0.959064
+             precision    recall  f1-score   support
+
+          0       0.95      0.99      0.97       107
+          1       0.98      0.91      0.94        64
+
+avg / total       0.96      0.96      0.96       171
+
+[[106   1]
+ [  6  58]]

@@ -1,0 +1,26 @@
+Validation accuracies of various algorithms:
+LR: 0.949614 (0.036724) (run time: 0.122824)
+CART: 0.920966 (0.037118) (run time: 0.112724)
+SVM: 0.619614 (0.082882) (run time: 0.385870)
+NB: 0.940773 (0.033921) (run time: 0.032269)
+KNN: 0.927729 (0.055250) (run time: 0.035979)
+
+Validation accuracies after standardizing the dataset:
+ScaledLR: 0.969324 (0.022363) (run time: 0.108709)
+ScaledCART: 0.914396 (0.035984) (run time: 0.140723)
+ScaledSVM: 0.964879 (0.038621) (run time: 0.102280)
+ScaledNB: 0.931932 (0.038625) (run time: 0.049956)
+ScaledKNN: 0.958357 (0.038595) (run time: 0.064684)
+
+Testing accuracy score 1.000000
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        75
+          1       1.00      1.00      1.00        39
+
+avg / total       1.00      1.00      1.00       114
+
+Confusion Matrix:
+[[75  0]
+ [ 0 39]]
+
